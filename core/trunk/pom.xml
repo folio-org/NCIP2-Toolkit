@@ -7,7 +7,7 @@
     <!-- The project details. -->
     <groupId>org.extensiblecatalog.ncip.v2</groupId>
     <artifactId>root</artifactId>
-    <version>2.1.0-SNAPSHOT</version>
+    <version>4.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>NCIP 2 Toolkit Root</name>
     <description>NCIP 2 Toolkit Root</description>
@@ -28,14 +28,14 @@
   </modules>
 
     <properties>
-        <javaVersion>1.8</javaVersion> <!-- Requires 1.6.0_25 or later due to bug in generics -->
-        <javaSourceVersion>1.8</javaSourceVersion>
-        <javaTargetVersion>1.8</javaTargetVersion>
+        <javaVersion>17</javaVersion> <!-- Requires 1.6.0_25 or later due to bug in generics -->
+        <javaSourceVersion>17</javaSourceVersion>
+        <javaTargetVersion>17</javaTargetVersion>
         <mavenVersion>3.0</mavenVersion> <!-- Will work with 3.0 -->
-        <highJavaVersion>8.0</highJavaVersion> <!-- The 1.4 = 2.4; 1.5 = 5.0; 1.6 = 6.0 -->
+        <highJavaVersion>17</highJavaVersion> <!-- The 1.4 = 2.4; 1.5 = 5.0; 1.6 = 6.0 -->
         <servletVersion>2.5</servletVersion>
         <checkstyleConfigName>NcipV2</checkstyleConfigName>
-        <springVersion>5.3.22</springVersion>
+        <springVersion>6.0.12</springVersion>
         <springVersionAgent>2.5.6</springVersionAgent>
         <jaxwsVersion>2.1.5</jaxwsVersion>
         <jaxws-springVersion>1.7</jaxws-springVersion>
