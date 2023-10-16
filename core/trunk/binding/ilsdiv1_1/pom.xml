@@ -7,15 +7,15 @@
 	<!-- The project details. -->
 	<groupId>org.extensiblecatalog.ncip.v2</groupId>
 	<artifactId>binding-ilsdiv1_1</artifactId>
-	<version>3.1.0</version>
+	<version>4.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>NCIP V2 ILS-DI v2 Extensions Binding</name>
 	<description>NCIP V2 ILS-DI V2 Extensions Binding</description>
 
 	<properties>
-		<javaVersion>1.7.0</javaVersion>
-		<javaSourceVersion>1.7</javaSourceVersion>
-		<javaTargetVersion>1.7</javaTargetVersion>
+		<javaVersion>17</javaVersion>
+		<javaSourceVersion>17</javaSourceVersion>
+		<javaTargetVersion>17</javaTargetVersion>
 		<mavenVersion>3.0.5</mavenVersion>
 		<highJavaVersion>8.0</highJavaVersion> <!-- The 1.4 = 2.4; 1.5 = 5.0; 1.6 = 6.0 -->
 		<servletVersion>2.5</servletVersion>
@@ -28,7 +28,7 @@
 	<parent>
 		<groupId>org.extensiblecatalog.ncip.v2</groupId>
 		<artifactId>binding</artifactId>
-		<version>3.1.0</version>
+		<version>4.0.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
