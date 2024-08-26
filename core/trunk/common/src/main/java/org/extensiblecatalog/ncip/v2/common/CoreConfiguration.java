@@ -109,7 +109,9 @@ public interface CoreConfiguration extends ToolkitConfiguration {
             + Version1UserAddressRoleType.class.getName() + ","
             + Version1UpdateRequestItemProcessingError.class.getName() + ","
             + Version1UserElementType.class.getName() + ","
-            + Version1UserIdentifierType.class.getName();
+            + Version1UserIdentifierType.class.getName() + ","
+            + Version2ItemIdentifierType.class.getName() + ","
+            + Version2RequestIdentifierType.class.getName();
 
     final String CORE_SCHEME_VALUE_PAIR_ADDED_CLASSES_LIST_KEY = "CoreConfiguration.AddedSVPClasses";
     final String CORE_SCHEME_VALUE_PAIR_ADDED_CLASSES_LIST_DEFAULT = null;

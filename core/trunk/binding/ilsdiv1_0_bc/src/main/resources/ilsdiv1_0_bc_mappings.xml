@@ -546,6 +546,11 @@
             <b>problem</b>
             <b-hint>org.extensiblecatalog.ncip.v2.binding.ilsdiv1_0_bc.jaxb.elements.Problem</b-hint>
         </field>
+        <field custom-converter="org.extensiblecatalog.ncip.v2.binding.ilsdiv1_0_bc.jaxb.dozer.ILSDIv1_0_bc_ExtensionConverter"
+               custom-converter-param="org.extensiblecatalog.ncip.v2.service.ItemId,org.extensiblecatalog.ncip.v2.binding.ilsdiv1_0_bc.jaxb.elements.ItemId">
+            <a>itemUuid</a>
+            <b>ext</b>
+        </field>
     </mapping>
 
     <mapping map-null="false">

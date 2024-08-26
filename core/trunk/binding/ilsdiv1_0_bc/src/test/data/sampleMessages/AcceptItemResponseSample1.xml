@@ -1,0 +1,21 @@
+<ns1:NCIPMessage xmlns:ns1="http://www.niso.org/2008/ncip" ns1:version="http://www.niso.org/schemas/ncip/v2_0/imp1/xsd/ncip_v2_0.xsd">
+    <ns1:AcceptItemResponse>
+        <ns1:RequestId>
+            <ns1:AgencyId>Relais</ns1:AgencyId>
+            <ns1:RequestIdentifierType ns1:Scheme="Schema">UUID</ns1:RequestIdentifierType>
+            <ns1:RequestIdentifierValue>de627598-d468-41e0-a849-450940478477</ns1:RequestIdentifierValue>
+        </ns1:RequestId>
+        <ns1:ItemId>
+            <ns1:AgencyId>Relais</ns1:AgencyId>
+            <ns1:ItemIdentifierType ns1:Scheme="Schema">Barcode</ns1:ItemIdentifierType>
+            <ns1:ItemIdentifierValue>LEH-20191003227</ns1:ItemIdentifierValue>
+        </ns1:ItemId>
+        <ns1:Ext>
+            <ns1:ItemId>
+                <ns1:AgencyId>Relais</ns1:AgencyId>
+                <ns1:ItemIdentifierType ns1:Scheme="Schema">UUID</ns1:ItemIdentifierType>
+                <ns1:ItemIdentifierValue>7212ba6a-8dcf-45a1-be9a-ffaa847c4423</ns1:ItemIdentifierValue>
+            </ns1:ItemId>
+        </ns1:Ext>
+    </ns1:AcceptItemResponse>
+</ns1:NCIPMessage>
