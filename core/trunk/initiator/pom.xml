@@ -7,7 +7,7 @@
     <!-- The project details. -->
     <groupId>org.extensiblecatalog.ncip.v2</groupId>
     <artifactId>initiator</artifactId>
-   <version>4.0.1-SNAPSHOT</version>
+   <version>4.1.0</version>
     <packaging>jar</packaging>
     <name>NCIP V2 Initiator Implementation</name>
     <description>NCIP V2 Initiator Service Implementation</description>
@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>
         <artifactId>root</artifactId>
-        <version>4.0.1-SNAPSHOT</version>
+        <version>4.1.0</version>
     </parent>
 
     <dependencies>
