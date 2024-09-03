@@ -1,0 +1,5 @@
+package org.extensiblecatalog.ncip.v2.service;
+
+public interface CreateUserFiscalTransactionService extends NCIPService<CreateUserFiscalTransactionInitiationData, CreateUserFiscalTransactionResponseData> {
+    CreateUserFiscalTransactionResponseData performService(CreateUserFiscalTransactionInitiationData initData, ServiceContext serviceContext, RemoteServiceManager remoteServiceManager) throws ServiceException, ValidationException;
+}

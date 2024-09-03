@@ -70,6 +70,14 @@ public class AcceptItemResponseData implements NCIPResponseData {
         this.itemId = itemId;
     }
 
+    public ItemId getItemUuid() {
+        return itemUuid;
+    }
+
+    public void setItemUuid(ItemId itemUuid) {
+        this.itemUuid = itemUuid;
+    }
+
     /**
      * Response Header
      */
@@ -86,6 +94,8 @@ public class AcceptItemResponseData implements NCIPResponseData {
      * ItemID
      */
     protected ItemId itemId;
+
+    protected ItemId itemUuid;
 
     /**
      * Generic toString() implementation.
