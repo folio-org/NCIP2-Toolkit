@@ -99,6 +99,22 @@ public class CheckInItemResponseData implements NCIPResponseData {
         this.userOptionalFields = userOptionalFields;
     }
 
+    public UserId getUserUuid() {
+        return userUuid;
+    }
+
+    public void setUserUuid(UserId userUuid) {
+        this.userUuid = userUuid;
+    }
+
+    public ItemId getLoanUuid() {
+        return loanUuid;
+    }
+
+    public void setLoanUuid(ItemId loanUuid) {
+        this.loanUuid = loanUuid;
+    }
+
     /**
      * Response Header
      */
@@ -131,6 +147,10 @@ public class CheckInItemResponseData implements NCIPResponseData {
      * User Optional Fields
      */
     protected UserOptionalFields userOptionalFields;
+
+    protected UserId userUuid;
+    protected ItemId loanUuid;
+
 
     /**
      * Generic toString() implementation.

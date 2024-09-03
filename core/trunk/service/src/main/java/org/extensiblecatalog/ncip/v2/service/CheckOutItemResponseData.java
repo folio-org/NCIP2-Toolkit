@@ -93,6 +93,8 @@ public class CheckOutItemResponseData implements NCIPResponseData {
      */
     protected UserOptionalFields userOptionalFields;
 
+    protected ItemId loanUuid;
+
     /**
      * Retrieve the response header.
      *
@@ -251,6 +253,14 @@ public class CheckOutItemResponseData implements NCIPResponseData {
 
     public void setUserOptionalFields(UserOptionalFields userOptionalFields) {
         this.userOptionalFields = userOptionalFields;
+    }
+
+    public ItemId getLoanUuid() {
+        return loanUuid;
+    }
+
+    public void setLoanUuid(ItemId loanUuid) {
+        this.loanUuid = loanUuid;
     }
 
     /**
