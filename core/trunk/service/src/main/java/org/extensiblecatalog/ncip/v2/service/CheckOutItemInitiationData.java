@@ -94,7 +94,7 @@ public class CheckOutItemInitiationData implements NCIPInitiationData {
     protected GregorianCalendar desiredDateDue;
 
     /**
-     * RequestID
+     * Custom identifiers - External Reference
      */
     protected RequestId externalReference;
 
@@ -356,6 +356,24 @@ public class CheckOutItemInitiationData implements NCIPInitiationData {
      */
     public void setDesiredDateDue(GregorianCalendar desiredDateDue) {
         this.desiredDateDue = desiredDateDue;
+    }
+
+    /**
+     * Retrieves the external reference request ID.
+     *
+     * @return the external reference {@link RequestId} associated with this object.
+     */
+    public RequestId getExternalReference() {
+        return externalReference;
+    }
+
+    /**
+     * Sets the external reference request ID for this object.
+     *
+     * @param externalReference the {@link RequestId} to set as the external reference.
+     */
+    public void setExternalReference(RequestId externalReference) {
+        this.externalReference = externalReference;
     }
 
     /**
