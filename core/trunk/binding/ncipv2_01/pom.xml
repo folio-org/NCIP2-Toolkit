@@ -8,7 +8,7 @@
     <!-- The project details. -->
     <groupId>org.extensiblecatalog.ncip.v2</groupId>
     <artifactId>binding-ncipv2_01</artifactId>
-    <version>4.1.1-SNAPSHOT</version>
+    <version>4.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>NCIP V2.01 Binding</name>
     <description>NCIP V2.01 Binding</description>
@@ -17,7 +17,7 @@
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>
         <artifactId>binding</artifactId>
-       <version>4.1.1-SNAPSHOT</version>
+       <version>4.1.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>

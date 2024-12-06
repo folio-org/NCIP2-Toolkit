@@ -94,6 +94,11 @@ public class CheckOutItemInitiationData implements NCIPInitiationData {
     protected GregorianCalendar desiredDateDue;
 
     /**
+     * RequestID
+     */
+    protected RequestId externalReference;
+
+    /**
      * Retrieve the initiation header.
      *
      * @return the initiation header
