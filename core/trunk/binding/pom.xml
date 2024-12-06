@@ -9,7 +9,7 @@
     <groupId>org.extensiblecatalog.ncip.v2</groupId>
     <artifactId>binding</artifactId>
     <packaging>pom</packaging>
-    <version>4.1.1-SNAPSHOT</version>
+    <version>4.1.1</version>
     <name>NCIP V2 Binding</name>
     <description>NCIP V2 Binding</description>
 
@@ -17,7 +17,7 @@
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>
         <artifactId>root</artifactId>
-        <version>4.1.1-SNAPSHOT</version>
+        <version>4.1.1</version>
     </parent>
 
     <modules>
