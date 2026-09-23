@@ -1,2 +1,0 @@
-=Millennium (*III*) Installation=
-Please follow the steps in  [http://code.google.com/p/xcncip2toolkit/wiki/CoreInstallation Installation/General Installation Instructions]
