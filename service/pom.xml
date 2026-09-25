@@ -12,6 +12,14 @@
     <name>NCIP V2 Services</name>
     <description>NCIP V2 Services</description>
 
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/license/mit</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
     <!-- Every component inherits common settings from the "root" POM which defines all system and dependency versions. -->
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>

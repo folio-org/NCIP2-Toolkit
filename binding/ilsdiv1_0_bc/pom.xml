@@ -13,6 +13,14 @@
     <name>NCIP V2 ILS-DI v1 bc Extensions Binding</name>
     <description>NCIP V2 ILS-DI V1 Extensions Binding (backwards-compatible with 1.1)</description>
 
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/license/mit</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
     <!-- Inherit from the service-level POM. -->
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>
