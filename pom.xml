@@ -12,6 +12,14 @@
     <name>NCIP 2 Toolkit Root</name>
     <description>NCIP 2 Toolkit Root</description>
 
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/license/mit</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
     <!-- The list of child modules. -->
     <modules>
         <module>service</module>
