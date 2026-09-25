@@ -18,3 +18,4 @@ jobs:
     secrets: inherit
     with:
       do-sonar-scan: false
+      do-docker: false
