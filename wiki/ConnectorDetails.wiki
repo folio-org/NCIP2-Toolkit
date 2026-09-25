@@ -1,6 +1,0 @@
-= Connectors =
-
-== General Information ==
-
-  * [VoyagerConnector Voyager]
-  * [SymphonyConnector Symphony]
