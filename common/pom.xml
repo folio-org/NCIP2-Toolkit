@@ -7,10 +7,18 @@
     <!-- The project details. -->
     <groupId>org.extensiblecatalog.ncip.v2</groupId>
     <artifactId>common</artifactId>
-   <version>4.1.5-SNAPSHOT</version>
+    <version>4.1.5-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>NCIP V2 Common</name>
     <description>NCIP V2 Common</description>
+
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/license/mit</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
 
     <!-- Every component inherits common settings from the "root" POM which defines all system and dependency versions. -->
     <parent>

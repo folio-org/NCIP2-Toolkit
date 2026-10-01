@@ -13,6 +13,14 @@
     <name>NCIP V2 Binding</name>
     <description>NCIP V2 Binding</description>
 
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/license/mit</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
     <!-- Inherit from the root POM. -->
     <parent>
         <groupId>org.extensiblecatalog.ncip.v2</groupId>
